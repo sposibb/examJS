@@ -7,3 +7,13 @@ $(document).ready(function () {
     arrows: false,
   });
 });
+
+$(document).ready(function () {
+  $(".slider_second").slick({
+    dots: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
+  });
+});
