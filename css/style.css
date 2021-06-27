@@ -11576,7 +11576,7 @@ li {
   font-family: "Gotham-Book", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 13px;
   text-align: center;
   text-transform: uppercase;
@@ -11665,10 +11665,12 @@ li {
   color: #2c4058;
   padding-left: 20px;
   padding-top: 20px;
+  padding-right: 20px;
 }
 .section2__text {
   padding-left: 20px;
   margin-bottom: 32px;
+  padding-right: 20px;
 }
 .section2__image_icon {
   padding-left: 20px;
@@ -11682,16 +11684,24 @@ li {
   line-height: 17px;
   text-transform: uppercase;
   color: #2c4058;
+  padding-top: 14px;
 }
 
 .columnBack {
   background: #ffffff;
-  width: 51vh;
+  width: 370px;
+  margin-bottom: 214px;
 }
 
 .section2__image {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 20px;
+  margin-right: 20px;
+}
+
+.section2_img {
+  width: 370px;
 }
 /*# sourceMappingURL=style.css.map */
