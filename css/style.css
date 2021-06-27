@@ -618,7 +618,7 @@ template {
 
 .g-0,
 .gx-0 {
-  --bs-gutter-x: 0;
+  --bs-gutter-x: -5.5rem;
 }
 
 .g-0,
@@ -11703,5 +11703,86 @@ li {
 
 .section2_img {
   width: 370px;
+}
+
+.section3 {
+  position: relative;
+}
+.section3__line {
+  padding-top: 140px;
+  padding-left: 680px;
+  margin-bottom: 28px;
+}
+.section3__title {
+  font-family: "Gotham-Book", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2c4058;
+  margin-bottom: 100px;
+}
+.section3__lastPhoto {
+  margin-bottom: 60px;
+}
+.section3__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 140px;
+}
+
+.footer__background {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(63.43deg, #55b8ffe7 14.81%, #7d59ff86 81.48%), url(../img/Rectangle15.png) center center no-repeat;
+  background-size: cover;
+}
+.footer__logo {
+  padding-top: 200px;
+  padding-left: 415px;
+  padding-bottom: 40px;
+}
+.footer__circle1 {
+  position: absolute;
+  left: 1025px;
+}
+.footer__circle2 {
+  position: absolute;
+  left: 1085px;
+}
+.footer__circle3 {
+  position: absolute;
+  left: 1145px;
+}
+.footer__icon1 {
+  position: absolute;
+  left: 1040px;
+  top: 210px;
+}
+.footer__icon2 {
+  position: absolute;
+  left: 1098px;
+  top: 214px;
+}
+.footer__icon3 {
+  position: absolute;
+  left: 1157px;
+  top: 212px;
+}
+.footer__text {
+  font-family: "Gotham-Book", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  padding-left: 415px;
+  padding-bottom: 208px;
 }
 /*# sourceMappingURL=style.css.map */
